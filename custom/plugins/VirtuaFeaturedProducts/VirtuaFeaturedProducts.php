@@ -27,7 +27,7 @@ class VirtuaFeaturedProducts extends Plugin
                 'label' => 'Is featured',
                 'displayInBackend' => true,
             ],
-            'virtua_featured',
+            'virtua_is_featured',
             null,
             false
         );
