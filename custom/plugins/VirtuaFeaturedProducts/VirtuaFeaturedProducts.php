@@ -26,6 +26,7 @@ class VirtuaFeaturedProducts extends Plugin
             [
                 'label' => 'Is featured',
                 'displayInBackend' => true,
+                'translatable' => true
             ],
             'virtua_is_featured',
             null,
@@ -35,5 +36,6 @@ class VirtuaFeaturedProducts extends Plugin
     public function uninstall(UninstallContext $context)
     {
         $service = $this->container->get('shopware_attribute.crud_service');
+        $service->delete('s_articles_attributes', 'virtua_is_featured');
     }
 }
