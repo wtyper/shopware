@@ -33,6 +33,7 @@ class VirtuaFeaturedProducts extends Plugin
             false
         );
     }
+
     public function uninstall(UninstallContext $context)
     {
         $service = $this->container->get('shopware_attribute.crud_service');
