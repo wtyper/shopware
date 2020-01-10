@@ -26,8 +26,6 @@ Thumbs.db
 /engine/Shopware/Plugins/Local/Core/*
 /engine/Shopware/Plugins/Local/Frontend/*
 
-
-
 # User installed themes
 /themes/Frontend/*
 !/themes/Frontend/.eslintrc.js
