@@ -94,3 +94,5 @@ phpstan.phar
 # scripts
 !/build/composer-post-install-cmd.sh
 !/build/composer-post-update-cmd.sh
+
+/test.php
