@@ -20,6 +20,7 @@ Thumbs.db
 
 # User installed plugins
 /engine
+/custom/plugins/*
 
 # User installed themes
 /themes/Frontend/*
