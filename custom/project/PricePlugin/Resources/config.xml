@@ -4,9 +4,9 @@
     <elements>
         <element required="true" type="boolean">
             <name>hide_price_for_anon</name>
-            <label>Display prices only for logged users</label>
+            <label>Hide Prices For Anonymous Users</label>
             <value>0</value>
-            <description>Display prices only for logged users</description>
+            <description>Do You Want To Hide Prices For Anonymous Users?</description>
         </element>
     </elements>
 </config>

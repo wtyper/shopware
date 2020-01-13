@@ -1,4 +1,5 @@
 <?php
+
 namespace PricePlugin\Subscribers;
 
 use Enlight\Event\SubscriberInterface;
