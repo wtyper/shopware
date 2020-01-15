@@ -21,7 +21,7 @@ Thumbs.db
 # User installed plugins
 /engine
 /custom/plugins/*
-/custom/project/FroshProfiler
+/custom/plugins/FroshProfiler
 
 # User installed themes
 /themes/Frontend/*
