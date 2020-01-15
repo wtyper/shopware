@@ -1,7 +1,6 @@
 {extends file="parent:frontend/detail/content/buy_container.tpl"}
 
 {block name='frontend_detail_index_buy_container_base_info'}
-    {debug}
     {$smarty.block.parent}
     <li class="base-info--entry entry-attribute">
         <strong class="entry--label">
