@@ -23,6 +23,7 @@
 
  use Enlight\Event\SubscriberInterface;
  use Enlight_Controller_ActionEventArgs;
+ use GuzzleHttp\Event\SubscriberInterface;
 
  class TemplateRegistration implements SubscriberInterface{
      /**
